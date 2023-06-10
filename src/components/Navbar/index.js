@@ -99,7 +99,7 @@ const Navbar = ({ toggle }) => {
                 onClick={() => handleNavItemClicked(item.to)}
               >
                 
-                <NavLinks to={item.to}>
+                <NavLinks to={item.url}>
                   <span>{item.label}</span>
                   {item.showIcon && (
                     <IconWrapper isHovered={isHovered[index]}>
