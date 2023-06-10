@@ -31,7 +31,7 @@ export const HomeBg = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
-    z-index:1;
+    z-index:2;
 `
 
 export const PhotoBg = styled.img`
@@ -42,7 +42,7 @@ export const PhotoBg = styled.img`
 
 export const Wrapper = styled.div`
     display: grid;
-    z-index: 3;
+    z-index: 2;
     height: 80vh;
     width: 100%;
     max-width: 1200px;
